@@ -1,0 +1,8 @@
+[Unit]
+Description=here is the description
+
+[Service]
+ExecStart=/home/chris/projects/services/timeOnly.sh
+
+[Install]
+RequiredBy=graphical.target

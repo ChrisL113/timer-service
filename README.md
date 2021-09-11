@@ -3,6 +3,8 @@
 just
 
 ```
-    sudo ln -s /etc/systemd/user/  /home/chris/projects/services/notifierTwentyMins.service
-    sudo ln -s /etc/systemd/user/  /home/chris/projects/services/notifierTwentyMins.timer
+    cp clockDispatch.service /usr/lib/systemd/user
+    cp clockDispatch.service /usr/lib/systemd/user
+
+    NOTE: keep in mind you should chnage the address of the execStart depending on where you put this repo!
 ```

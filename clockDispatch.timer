@@ -1,0 +1,9 @@
+[Unit]
+Description=second attempt to my clock
+
+[Timer]
+OnBootSec=1min
+OnUnitInactiveSec=4min
+
+[Install]
+WantedBy=timers.target
