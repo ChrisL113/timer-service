@@ -2,7 +2,7 @@
 Description=here is the description
 
 [Service]
-ExecStart=/home/chris/projects/services/timeOnly.sh
+ExecStart=/home/chris/.config/services/timer-service/timeOnly.sh
 
 [Install]
 RequiredBy=graphical.target
